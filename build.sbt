@@ -31,9 +31,9 @@ libraryDependencies ++=
 Nil
 
 
-EclipseKeys.withSource := true
+// EclipseKeys.withSource := true
 
-EclipseKeys.withJavadoc := true
+// EclipseKeys.withJavadoc := true
 
 // javacOptions ++= Seq("-source", "1.7", "-target", "1.7")
 
@@ -42,7 +42,7 @@ EclipseKeys.withJavadoc := true
 // EclipseKeys.eclipseOutput := Some("target")
 
 // Compile the project before generating Eclipse files, so that generated .scala or .class files for views and routes are present
-EclipseKeys.preTasks := Seq(compile in Compile)
+// EclipseKeys.preTasks := Seq(compile in Compile)
 
 assemblyJarName in assembly := "HLTA.jar"
 

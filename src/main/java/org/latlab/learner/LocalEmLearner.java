@@ -336,7 +336,7 @@ public final class LocalEmLearner extends EmLearner {
 	/**
 	 * Replaces the maximum number of steps allowed in this EM algorithm.
 	 * 
-	 * @param nMaxSteps
+	 * @param nContinuedSteps
 	 *            new maximum number of steps.
 	 */
 	public final void setNumberOfContinuedSteps(int nContinuedSteps) {

@@ -111,7 +111,7 @@ public class Variable implements Comparable {
 	}
 
 	/**
-	 * Construct a variable with default nama and given number of states.
+	 * Construct a variable with default name and given number of states.
 	 * 
 	 * @author csct
 	 * @param cardinality

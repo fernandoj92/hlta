@@ -451,8 +451,7 @@ public class EmLearner {
 	/**
 	 * Reset the number of initial iterations of emStep().
 	 * 
-	 * @param threshold
-	 *            new threshold.
+	 * @param numInitIterations new threshold.
 	 */
 	public final void setNumInitIterations(int numInitIterations) {
 		assert numInitIterations >= 0;
